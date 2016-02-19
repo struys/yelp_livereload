@@ -29,7 +29,7 @@ def yelp_livereload_middleware(app, port=get_port()):
 
             response = Response(
                 io.open(js_path, 'rb').read(),
-                content_type='application/javascript',
+                content_type=str('application/javascript'),
             )
             return response(environment, start_response)
 

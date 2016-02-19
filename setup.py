@@ -8,7 +8,7 @@ setup(
     description=(
         'livereload utils used at Yelp'
     ),
-    version='0.1.0',
+    version='0.1.1',
     classifiers=[
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.7',
