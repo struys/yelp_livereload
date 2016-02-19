@@ -1,0 +1,9 @@
+-e .
+
+coverage
+mock
+pre-commit
+pytest
+WebTest
+ipdb
+ipython
