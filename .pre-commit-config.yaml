@@ -1,5 +1,6 @@
+repos:
 -   repo: git@github.com:pre-commit/pre-commit-hooks
-    sha: d3db0385825d4c082bc7117c090ac16cb4840f3e
+    rev: d3db0385825d4c082bc7117c090ac16cb4840f3e
     hooks:
     -   id: trailing-whitespace
     -   id: end-of-file-fixer
@@ -10,7 +11,7 @@
         files: ^tests/.+\.py$
     -   id: flake8
 -   repo: git@github.com:pre-commit/mirrors-jshint
-    sha: e86225836aadd058036f47a6de9b0ee0440476eb
+    rev: e86225836aadd058036f47a6de9b0ee0440476eb
     hooks:
     -   id: jshint
         language_version: 4.2.1
